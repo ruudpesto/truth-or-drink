@@ -1,5 +1,4 @@
 # Truth or Drink
-
 A free, online version of the card game built with Next.js
 
 ### Interactability
@@ -12,11 +11,14 @@ Users can alter the question bank by forcing a specific question to appear at a 
 
 ```bash
 # clone the repository
-git clone https://github.com/aravindnatch/truth-or-drink.git
+git clone https://github.com/ruudpesto/truth-or-drink
 
 # install the dependencies
 cd truth-or-drink && npm install
 
 # start the development server
 npm run dev
+
+# deploy to firebase
+npm run build && npm run export && firebase deploy --only hosting
 ```
